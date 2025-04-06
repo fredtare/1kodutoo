@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Kell!</title>
+</head>
+
+<header>
+  <div id="score"></div>
+</header>
+
+<body>
+
+
+<div id="target"></div>
+
+<div id="image"></div>
+
+<div id="time-container">
+
+  <div id="time">
+    <div id="time"></div>
+    <div id="hours">0h</div>
+    <div id="minutes">0m</div>
+    <div id="seconds">0s</div>
+  </div>
+
+  <div id="binaryTime">
+    <div id="bin-hours"> 
+      <div id="bin-hours1">
+        <div class="binaryDotOff" id="h0"></div>
+        <div class="binaryDotOff" id="h1"></div>
+        <div class="binaryDotOff" id="h2"></div>
+      </div>   
+
+      <div id="bin-hours2">
+        <div class="binaryDotOff" id="h3"></div>
+        <div class="binaryDotOff" id="h4"></div>
+        <div class="binaryDotOff" id="h5"></div>
+      </div>
+    </div>
+    
+    <div id="bin-minutes">
+      <div id="bin-minutes1">
+        <div class="binaryDotOff" id="m0"></div>
+        <div class="binaryDotOff" id="m1"></div>
+        <div class="binaryDotOff" id="m2"></div>
+      </div>
+
+      <div id="bin-minutes2">
+        <div class="binaryDotOff" id="m3"></div>
+        <div class="binaryDotOff" id="m4"></div>
+        <div class="binaryDotOff" id="m5"></div>
+      </div>
+    </div>
+
+    <div id="bin-seconds">
+      <div id="bin-seconds1">
+        <div class="binaryDotOff" id="s0"></div>
+        <div class="binaryDotOff" id="s1"></div>
+        <div class="binaryDotOff" id="s2"></div>
+      </div>
+
+      <div id="bin-seconds2">
+        <div class="binaryDotOff" id="s3"></div>
+        <div class="binaryDotOff" id="s4"></div>
+        <div class="binaryDotOff" id="s5"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="calendar">
+    <div id="date"></div>
+    <div id="day"></div>
+    <div id="month"></div>
+    <div id="year"></div>
+  </div>
+
+</div>
+
+<div id="buttons-container">
+
+  <div id="dateStyle-buttons">
+    <button class = "button" id="dateStyle">Vanarahva kalender</button>
+    <button class = "button" id="binaryClock">Binaarkell!</button>
+  </div>
+
+  <div id="toggle-buttons">
+    <button class = "button" id="nightModeToggle">Night/Day</button>
+    <button class = "button" id="customToggle">Suvaliste Värvide Reziim</button>
+  </div>
+
+  <div id="color-buttons">
+    <button class = "button" id="saveColors">Salvesta värvid</button>
+    <div id="colorLibrary"> </div>
+  </div>
+
+</body>
+</html>
