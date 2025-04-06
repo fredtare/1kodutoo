@@ -11,6 +11,13 @@ body {
    
 }
 
+#watermark {
+    opacity: 0.3;
+    position: absolute;
+    left: 1%;
+    top: 1%;
+}
+
 #image {
     position: absolute;
     width: 100%;
